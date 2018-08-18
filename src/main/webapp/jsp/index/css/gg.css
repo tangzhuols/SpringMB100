@@ -1,0 +1,35 @@
+ #pdiv{
+	position:relative;
+	visibility:visible;
+	width:460px;
+	height:220px;
+	left:10px;
+	top:0px;
+	border:1px solid #000000;
+   /*
+      国际象棋盘式 
+	filter:progid:DXImageTransform.Microsoft.CheckerBoard(Enabled=true,Duration=2,direction=right);
+  */
+   /*
+       矩形色块拼贴
+   filter:progid:DXImageTransform.Microsoft.Pixelate(Enabled=false,Duration=2);
+   */
+   
+   /*
+      随即线条 */
+      filter:progid:DXImageTransform.Microsoft.RandomBars(Enabled=true,Duration=2);
+  
+   
+     /*
+      随即溶解
+      	filter:progid:DXImageTransform.Microsoft.RandomDissolve(Enabled=true,Duration=2);
+   */
+    
+}
+.divclass{
+	position:absolute;
+	visibility:hidden;
+	left:-1px;
+	top:-1px;
+	border:1px solid #000000;
+}
